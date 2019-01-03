@@ -1,0 +1,33 @@
+.custombanner{
+	height: 350px;
+	position: relative;
+	margin-bottom: 100px;
+	margin-right: 0;
+}
+.customimage{
+	background-repeat: no-repeat;
+	background-position:center;
+	background-size: contain;
+	margin-top: 50px;
+
+}
+.custombanner:before{
+    content: '';
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-image: radial-gradient(circle at center, #EEFFDB, #8d298d 50%);
+	opacity: .5; 
+}
+.customtext{
+	font-size: 50px;
+	font-family: cursive;
+	text-align: center;
+	letter-spacing: -3px;
+    left: 0;
+    top: 50%;
+    width: 100%;
+
+}

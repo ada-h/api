@@ -1,0 +1,21 @@
+.footer{
+    background-image: url('./editedfooter.png');
+    background-position: center;
+    background-size: cover;
+    background-color: black;
+    margin-bottom: 0;
+}
+
+.footerh1{
+    color: #f51aa4;
+    font-family: cursive
+}
+.lead{
+    color: #cccccc !important;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+@media only screen and (min-width: 768px) {
+    .footerrow{
+        margin-left: 150px;
+    }
+}

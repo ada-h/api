@@ -1,0 +1,81 @@
+.sidenav{
+    height: 100vh;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 20%;
+    align-items: center;
+    margin: 0;
+}
+.dashboardLogo{
+ margin-left: 100px;
+ padding-top: 50px; 
+ padding-bottom: 100px;
+}
+.dashboardLinks{
+    text-align: left;
+    margin-left: 40px;
+    font-size: 20px;
+    font-family: cursive;
+    font-weight: 600;
+}
+.dashboardLink{
+    color: black !important;
+}
+.dashboardLink:hover{
+    text-decoration: none !important;
+    border-bottom: 4px dotted #8d298d;
+   
+}
+.filedetail{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 25%;
+    border-radius: 5px;
+    margin-left: 355px;
+    margin-top: 100px;
+    position: absolute;
+}
+.file{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: relative;
+    z-index: 1; 
+    border-radius: 5px;
+    margin-left: 15px;
+    background-color: #8d298d;
+}
+.timeofUpload{
+    border-top : 1px solid rgba(0, 0, 0, 0.274)
+}
+.uploadheader{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: absolute;
+    border-radius: 5px;
+    margin-left: 355px;
+    margin-top: 350px;
+    padding: 30px;
+}
+
+.uploads{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: relative;
+    z-index: 1; 
+    border-radius: 5px;
+    margin-left: 15px;
+    background-color: #8d298d;
+    padding: 10px;
+}
+.uploadForm{
+    padding: 20px;
+}
+
+.searchbutton{
+    padding: 10px;
+    background-color: #f51aa4;
+    border-radius: 100%;
+}
+.search{
+    border: none;
+    border-bottom: 2px solid rgba(7, 6, 6, 0.561)
+}
+.search:focus{
+    border: none;
+    border-bottom: 2px dotted  #f51aa4;
+}

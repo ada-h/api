@@ -1,0 +1,31 @@
+.navbar{
+    background-color:  transparent;
+    position: absolute;
+    z-index: 1;
+}
+.nav-link{
+    color: #f51aa4 !important; 
+    font-size: 20px;
+    font-weight: 700;
+    padding-right: 50px !important;
+    font-family: cursive;
+    text-shadow: 2px 1px #8d298d;
+}
+.nav-link:hover{
+    border-bottom: 2px dotted #8d298d;
+}
+
+.logo{
+    height: 100%;
+    width: 100%;
+    margin-left: 220px;
+}
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .middle{
+        margin-left: 350px !important;
+    }
+    .logo{
+        margin-left: 0px;
+    }
+}

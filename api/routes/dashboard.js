@@ -5,7 +5,7 @@ const bcrypt = require('bcryptjs')
 const jwt = require('jsonwebtoken')
 
 router.post('/register', (req,res,next)=>{
-    const{id,username,email,password,location,service} = req.body;
+    const{id,username,email,password,location,services,} = req.body;
     myDatabase('register').where({
         email: email,
        }).select('id')
@@ -28,7 +28,7 @@ router.post('/register', (req,res,next)=>{
                     "email": email,
                     "password":  hash,
                     "location": location,
-                    "service": service
+                    "service": services
                 })    
                 .then (response=>{
                     res.status(200).json("You have been registered successfully")
